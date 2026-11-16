@@ -1,11 +1,12 @@
 # Template for Formula/agentmail.rb in patrickhilker/homebrew-tap.
-# The release workflow fills in 0.4.0 and c9b8ef90663e9b0bec7e42e305bb6bfec72c1f2fcbc4828f0bdcf9fea86f372b and pushes it to the tap.
+# The release workflow fills in 0.4.1 and 448abe993f3fc31bd9c48b9508192499fe1d069300882a3b438ae8320376f9de and pushes it to the tap.
 class Agentmail < Formula
   desc "Email for AI agents on a catch-all IMAP/SMTP mailbox"
   homepage "https://github.com/patrickhilker/agentmail"
-  url "https://github.com/patrickhilker/agentmail/releases/download/v0.4.0/agentmail.mjs"
-  version "0.4.0"
-  sha256 "c9b8ef90663e9b0bec7e42e305bb6bfec72c1f2fcbc4828f0bdcf9fea86f372b"
+  url "https://github.com/patrickhilker/agentmail/releases/download/v0.4.1/agentmail.mjs"
+  version "0.4.1"
+  sha256 "448abe993f3fc31bd9c48b9508192499fe1d069300882a3b438ae8320376f9de"
+  license "MIT"
 
   depends_on "node"
 
